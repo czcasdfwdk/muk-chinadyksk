@@ -1,3 +1,4 @@
+--dyksech
 local _0x1 = game:GetService("ReplicatedStorage")
 local _0x2 = _0x1.PlaceFoodOrder
 local _0x3 = {}
@@ -7,4 +8,3 @@ end
 while task.wait(0.2) do
     _0x2:FireServer(_0x3)
 end
---哥们你看你妈呢
