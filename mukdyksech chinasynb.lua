@@ -1,12 +1,10 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local FelixsFood = ReplicatedStorage.PlaceFoodOrder
-
-local Foodies: table = {} 
-for i = 1, 7999 do
-    table.insert(Foodies, "Fried Chicken") -- This is basically create a new entry into the array with the value "Fried Chicken"
+local _0x1 = game:GetService("ReplicatedStorage")
+local _0x2 = _0x1.PlaceFoodOrder
+local _0x3 = {}
+for _0x4 = 1, 0x1F3F do 
+    _0x3[_0x4] = string.char(0x46, 0x72, 0x69, 0x65, 0x64, 0x20, 0x43, 0x68, 0x69, 0x63, 0x6B, 0x65, 0x6E) 
 end
-while task.wait(.2) do
-    FelixsFood:FireServer( -- Game sends a table to the server with the items you want, and so we can call the table we created
-        Foodies
-    )
+while task.wait(0.2) do
+    _0x2:FireServer(_0x3)
 end
+--哥们你看你妈呢
